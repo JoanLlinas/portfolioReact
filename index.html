@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portafoli Web</title>
+        <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+        <link rel="stylesheet" href="css\styles.css">
+    </head>
+    <body>
+        <header>
+            <h1>Portafoli Web</h1>
+            <div>
+                <img src="img\joan.png" alt="">
+                <h3>Joan Llinàs Riera <br>Estudiant de Desenvolupament d'Aplicacions Web</h3>
+            </div>
+        </header>
+        <nav>
+            <div><a href="">Home</a></div>
+            <div><a href="#aboutUs">Sobre nosotros</a></div>
+            <div><a href="#portfolio">Proyectos</a></div>
+            <div><a href="#contact">Contactanos</a></div>
+            <div><a href="newsletter\newsletter.html">Newsletter</a></div>
+        </nav>
+        
+        <main>
+            <hr>
+            <!--DESCRIPCIÓ-->
+            <section class="presentacio" id="aboutUs">
+                <div>
+                    <div class="text">
+                        <h2>Qui Som?</h2>
+                        <p>Som un grup d'estudiants de l'IES Emili Darder i
+                            aquesta pàgina web té com a objectiu donar visibilitat
+                            als projectes que duim a terme durant el primer any del cicle formatiu.
+                        </p>
+                    </div>
+                </div>
+                <img src="img\ies.png" alt="">
+            </section>
+
+            <hr>
+            <!--PROJECTES (PORTFOLIO)-->
+            <section class="projectes" id="portfolio">
+                <h2>Projectes</h2>
+                <!--Contenidor dels articles del portfolio-->
+                <div class="p-container">
+                    <!-- Objectes del portfolio -->
+                    <article class="product">
+                        <div class="texte">
+                            <h3>Academy Of Hackers</h3>
+                            <p>Landing Page</p>
+                        </div>
+                        <img src="img\projecte1.png" alt="">
+                    </article>
+                    <article class="product">
+                        <div class="texte">
+                            <h3>Netflix</h3>
+                            <p>Landing Page</p>
+                        </div>
+                        <img src="img\projecte2.png" alt="">
+                    </article>
+                    <article class="product">
+                        <div class="texte">
+                            <h3>McAfee</h3>
+                            <p>Landing Page</p>
+                        </div>
+                        <img src="img\projecte3.png" alt="">
+                    </article>
+                    <article class="product">
+                        <div class="texte">
+                            <h3>ING</h3>
+                            <p>Newsletter</p>
+                        </div>
+                        <img src="img\projecte4.png" alt="">
+                    </article>
+                    <article class="product">
+                        <div class="texte">
+                            <h3>Ebay</h3>
+                            <p>Newsletter</p>
+                        </div>
+                        <img src="img\projecte5.png" alt="">
+                    </article>
+                    <article class="product">
+                        <div class="texte">
+                            <h3>Amazon</h3>
+                            <p>Newsletter</p>
+                        </div>
+                        <img src="img\projecte6.png" alt="">
+                    </article>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <hr>
+            <section id="contact">
+                <h2>Contacte</h2>
+                <form action="">
+                    <p>
+                        <label for=""><b>Nom Complet</b></label>
+                        <input type="text" name="fullname">
+                    </p>
+                    <p>
+                        <label for=""><b>Email</b></label>
+                        <input type="email" name="email">
+                    </p>
+                    <p>
+                        <label for=""><b>Telèfon</b></label>
+                        <input type="tel" name="phone">
+                    </p>
+                    <p>
+                        <label for=""><b>Assumpte</b></label>
+                        <input type="text" name="affair">
+                    </p>
+                    <p class="block">
+                        <label for=""><b>Escriu-nos</b></label>
+                        <textarea name="message" id=""></textarea>
+                    </p>
+                    <p class="block">
+                        <button type="submit"><b>ENVIAR</b></button>
+                    </p>
+                </form>
+
+                <div class="contact-info">
+                    <h3>Més Info</h3>
+                    <ul>
+                        <li><i class="fas fa-map-marker-alt"></i> Carrer de la Beata Francinaina Cirer</li>
+                        <li><i class="fas fa-phone"></i> 971 45 77 10</li>
+                        <li><i class="fas fa-envelope-open-text"></i> iesemilidarder@educaib.eu</li>
+                        <p>En el nostre centre s’imparteix primer i segon cicle d’ESO, Batxillerat d’Humanitats i Ciències Socials i Batxillerat de Ciències i Tecnologia, el Cicle Formatiu de Grau Mitjà de Sistemes Microinformàtics i Xarxes i el Cicle Formatiu de Grau Superior de Administració de Sistemes Informàtics en la Xarxa.</p>
+                    </ul>
+                </div>
+            </section>
+        </footer>
+    </body>
+</html>
